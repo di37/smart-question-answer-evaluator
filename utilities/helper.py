@@ -1,5 +1,6 @@
 import google.generativeai as genai
 from utilities.constants import GEMINI_API_KEY, MODEL_NAME
+import pandas as pd 
 
 # Configure the Gemini API (you'll need to replace this with your actual API key)
 genai.configure(api_key=GEMINI_API_KEY)
@@ -25,3 +26,7 @@ def evaluate_answer(question, correct_answer, user_answer):
     """
 
     return model.generate_content(evaluate_answer_prompt, stream=True)
+
+def load_qa_pairs(file):
+    df = pd.read_csv(file)
+    return df.to_dict('records')

@@ -1,2 +1,1 @@
-from .helper import evaluate_answer
-from .constants import QA_PAIRS
+from .helper import evaluate_answer, load_qa_pairs
