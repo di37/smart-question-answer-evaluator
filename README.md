@@ -1,6 +1,11 @@
 # In-Depth Question Answering Evaluation App
 
-This Streamlit application allows users to evaluate their answers to a series of pre-defined questions using natural language processing (NLP) techniques. The app provides immediate feedback on the correctness and quality of the answers, helping users improve their understanding and accuracy.
+This Streamlit application allows users to evaluate their answers to a series of pre-defined questions using Gemini 1.5 Pro LLM. The app provides immediate feedback on the correctness and quality of the answers, helping users improve their understanding and accuracy.
+
+## Acknowledgements
+
+- Special thanks to Dr.Fady AlNajjar - Head of AI at UAE University for the idea of this application.
+- This README file is generated using: https://huggingface.co/spaces/yasserrmd/ReadMeForge developed by Mohamed Yasser - Senior Solutions Architect at Sharjah Muncipality.
 
 ## Features
 
@@ -50,6 +55,12 @@ Open your web browser and go to `http://localhost:8501` to access the app.
    - Enter your answer in the text area below the question.
    - Click "Submit and Evaluate" to receive feedback on your answer.
    - Optionally, click "Next Question" to proceed to another question.
+
+View of the app
+
+![Application Screenshot](screenshots/1.png)
+
+![Application Screenshot](screenshots/2.png)
 
 ## Contributing
 
